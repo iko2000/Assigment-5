@@ -1,0 +1,620 @@
+@font-face {
+    font-family: Oswalid;
+    src: url('../Fonts/Oswald-Medium.ttf');
+}
+@font-face {
+    font-family: FiraGO;
+    src: url("../Fonts/FiraGO-Medium.ttf");
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../Fonts/Poppins-Light.ttf");
+}
+/* This section will style MENU AND FOOTER */
+
+header nav ul {
+    width: 100%;
+    height: 107px;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F5;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.menu {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-family: Poppins;
+    font-weight: 500;
+    color: black;
+}
+.menu:hover {
+    color: #0052CC;
+}
+a:hover {
+    color: #0052CC;
+}
+.logo {
+    margin-top: 30px;
+    margin-right: 220px;
+    display: flex;
+    
+}
+.icon-1 {
+    margin-left: 288px;
+}
+.icon-2 {
+    margin-left: 35px;
+}
+.icon-1pic {
+    width: 100%;
+    margin-top: 25px;
+    height: 20px;
+    
+}
+.icon-2pic {
+    margin-top: 26px;
+}
+
+.Smart {
+    color: #000000;
+    font-family: Oswalid;
+    font-size: 24px;
+    
+}
+.Shop {
+    color: #3F69FF;
+    font-family: Oswalid;
+    font-size: 24px;
+   
+}
+.header-floor-2 {
+    width: 100%;
+    height: 62px;
+    background-color: #0052CC;
+}
+.categories {
+    width: 200px;
+    height: 55px;
+}
+.header-floor-2-first {
+    margin-left: 52px;
+    display: flex;
+}
+.border {
+    width: 40px;
+    height: 10px;
+    margin-top: 20px;
+    color: white;
+    
+}
+.border div {
+    width: 33%;
+    height: 3px;
+    border-bottom: 2px solid white;
+
+}
+.category-text {
+    font-family: Poppins;
+    font-weight: 400;
+}
+.category-text-box {
+    width: 10px;
+    height: 10px;
+    margin-top: 22px;
+    color: white;
+}
+form {
+    width: 350px;
+    display: flex;
+    border-radius: 6px;
+
+}
+input{
+    width: 350px;
+    border: none;
+    height: 40px;
+}
+.input-box {
+    margin-left: 440px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    border-radius: 6px;
+    
+}
+
+.search-icon {
+    border: none;
+    background-color: white;
+    padding: 5px;
+}
+
+
+
+
+/* Footer styling */
+footer {
+    width: 100%;
+    height: 12rem;
+    display: flex;
+    justify-content:  center;
+    background-color: #0052CC;
+}
+
+.footer-1 {
+   width: 25%;
+   height: 10rem;
+}
+.Smart-1 {
+    color: white;
+    font-family: Oswalid;
+    font-size: 24px;
+}
+.Shop-1 {
+    color: white;
+    font-family: Oswalid;
+    font-size: 24px;
+}
+.footer-2 {
+    width: 40%;
+    height: 10rem;
+    margin-top: 25px;
+    display: flex;
+
+}
+.footer-3 {
+    width: 33%;
+    height: 10rem;
+    font-family: Poppins;
+    font-weight: 600;
+    color: white;
+
+}
+.footer-1-1 {
+    width: 33%;
+    height: 5rem;
+    display: flex;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.footer-logos {
+    width: 100%;
+    height: 5rem;
+    margin-left: 70px;
+}
+.footer-logo-pic {
+    color: blue;
+}
+.footer-2-1 {
+    width: 33%;
+    height: 10rem;
+    font-family: Poppins;
+    font-weight: 400;
+    color: black;
+
+} 
+.footer-2-2 {
+    width: 33%;
+    height: 10rem;
+    font-family: Poppins;
+    font-weight: 400;
+    color: black;
+} 
+.footer-2-3 {
+    width: 33%;
+    height: 10rem;
+    font-family: Poppins;
+    font-weight: 400;
+    color: black;
+} 
+.footer-2-1-1 {
+    margin-top: 22px;
+    margin-left: 40px;
+}
+.footer-form {
+    margin-left: 90px;
+    margin-top: 20px;
+    width: 320px;
+}
+.footer-form img, input {
+    border: none;
+    background-color: white;
+
+}
+.footer-form img {
+    width: 30px;
+    padding: 7px;
+}
+.footer-3-p{
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+/* Style main page's - Center */
+
+section {
+    width: 100%;
+    height: 40rem;
+}
+.h1-mainpage h1 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 88px;
+    font-family: Poppins;
+    font-weight: 900;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 25rem;
+    margin-top: 70px;
+}
+.wrapper-1 {
+    width: 20%;
+    height: 25rem;
+    
+}
+.wrapper-2 {
+    width: 20%;
+    height: 25rem;
+
+}
+.wrapper-3 {
+    width: 20%;
+    height: 25rem;
+    
+}
+.wrapper-4 {
+    width: 20%;
+    height: 25rem;
+
+}
+.wrapper-image {
+    margin-left: 55px;
+    position: absolute;
+}
+.wrapper-text {
+    display: flex;
+    height: 2rem;
+    margin-top: 40px;
+}
+.phone{
+    margin-left: 10px;
+    width: 120px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+.price{
+    margin-left: 100px;
+    height: 20px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+.phone p {
+    width: 120px;
+}
+.wrapper-add {
+    display: flex;
+    margin-top: 20px;
+}
+.additional {
+    margin-left: 10px;
+    width: 190px;
+    font-family: Poppins;
+    font-weight: 500;
+    color: #6A6A6A;
+}
+.additional-2 {
+    margin-left: 30px;
+    height: 20px;
+    width: 60px;
+    font-family: Poppins;
+    font-weight: 500;
+
+} 
+.hover-image:hover {
+    opacity: 1.0;
+}
+.wrapper-image:hover {
+    opacity: 0;
+}
+.hover-image {
+     position: relative;
+     opacity: 0;
+     margin-left: 55px;
+}
+
+/* This section will style "about us page" */
+
+.aboutus-h1 {
+    text-align: center;
+    margin-top: 49px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 26px;
+    color: blue;
+
+}
+.aboutus-floor-1 {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.aboutus-floor-1-1 {
+   width: 700px;
+   height: 10rem;
+   margin-top: 40px;
+   font-family: Poppins;
+    font-weight: 400;
+
+}
+
+.aboutus-floor-1-1 p{
+    margin-top: 10px;
+}
+span {
+    color: black;
+    font-size: 17px;
+    font-weight: 800;
+    font-family: Poppins;
+}
+.aboutus-floor-1-2 {
+    width: 150px;
+    height: 10rem;
+    margin-top: 50px;
+
+
+}
+.aboutus-floor-2 {
+    width: 100%;
+    height: 10rem;
+    font-family: Poppins;
+    font-weight: 500;
+    
+}
+.aboutus-floor-2 h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 500;
+    color: blue;
+    font-size: 26px;
+}
+.aboutus-floor-2 p {
+    margin-top: 30px;
+    width: 900px;
+    margin-left: 120px;
+}
+.aboutus-floor-3 {
+    width: 100%;
+    height: 10rem;
+    
+}
+.aboutus-floor-3 h1 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 26px;
+    color: blue;
+    font-family: Poppins;
+    font-weight: 500;
+}
+.aboutus-floor-3-1 {
+    margin-top: 30px;
+    margin-left: 300px;
+
+}
+
+/* This section is for BLOG styling */
+
+.blog-h1 {
+    margin-left: 83px;
+    margin-top: 40px;
+    font-size: 50px;
+    font-family: Poppins;
+    font-weight: 600;
+}
+.blog-floor-1 {
+    display: flex;
+}
+.blog-floor-1-1 {
+    margin-left: 83px;
+    margin-top: 25px;
+}
+.blog-floor-1-2 {
+    margin-top: 25px;
+    margin-left: 67px;
+}
+.blog-floor-1-2 h2 {
+       font-size: 36px;
+       margin-right: 60px;
+       margin-top: 40px;
+       font-family: Poppins;
+       font-weight: 600;
+       font-style: italic;
+} 
+.blog-floor-1-2 p {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 50px;
+    width: 450px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.blog-floor-2 {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 103px;
+
+}
+.blog-section {
+    height: 50rem;
+}
+
+.blog-floor-2 div {
+    width: 270px;
+    height: 15rem;
+}
+.blog-floor-2 h4 {
+    font-size: 14px;
+    margin-top: 6px;
+    font-family: Poppins;
+    font-weight: 400;
+
+}
+.blog-floor-2 p {
+    font-size: 10px;
+    margin-top: 5px;
+    font-family: Poppins;
+    font-weight: 500;
+}
+
+/* Styling for contact us page */
+
+.contactus-section {
+    display: flex;
+    height: 60rem;
+}
+.contactus-first {
+    width: 500px;
+    height: 40rem;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.cotactus-floor1 h2 {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 15px;
+    font-family: Poppins;
+    font-weight: 900;
+}
+.cotactus-floor1 h6 {
+    font-size: 18px;
+    color: black;
+    font-family: Poppins;
+    font-weight: 400;
+    
+}
+.contactus-first div {
+    width: 100%;
+    height: 8rem;
+}
+.cotactus-floor2 { 
+    display: flex;
+}
+.cotactus-floor2-1 {
+    width: 50%;
+    height: 200px;
+}
+.cotactus-floor2-2 {
+    margin-left: 30px;
+}
+.cotactus-floor2-1 input {
+    border: 1px solid  #7E7E7E;
+    width: 260px;
+    height: 48px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.cotactus-floor2-2 input {
+    border: 1px solid  #7E7E7E;
+    width: 260px;
+    height: 48px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.cotactus-floor2-2 p {
+    font-size: 26px;
+    margin-bottom: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+
+}
+.cotactus-floor2-1 p {
+    font-size: 26px;
+    margin-bottom: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+
+}
+.cotactus-floor2-2 {
+    width: 50%;
+}
+.cotactus-floor3 input {
+    border: 1px solid  #7E7E7E;
+    width: 550px;
+    height: 48px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.cotactus-floor3 p {
+    font-size: 26px;
+    margin-bottom: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+.cotactus-floor4 input {
+    border: 1px solid  #7E7E7E;
+    width: 550px;
+    height: 48px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.cotactus-floor4 p {
+    font-size: 26px;
+    margin-bottom: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+.cotactus-floor5 input {
+    border: 1px solid  #7E7E7E;
+    width: 550px;
+    height: 120px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.cotactus-floor5 p {
+    font-size: 26px;
+    margin-bottom: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+}
+.contactus-second {
+    width: 500px;
+    height: 40rem;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.cotactus-button {
+    margin-top: 100px;
+    margin-left: 180px;
+    background-color: #3F69FF;
+    font-family: Poppins;
+    font-weight: 400;
+    width: 200px;
+    height: 52px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    
+}
+.line {
+    width: 300px;
+    height: 1px;
+    border-bottom: 1px solid #3F69FF;
+    margin-top: 10px;
+}
